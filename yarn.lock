@@ -402,6 +402,11 @@
     "shebang-command" "^2.0.0"
     "which" "^2.0.1"
 
+"css-class-generator@^2.0.0":
+  "integrity" "sha512-zlmG8hCTmtc+3Esj1R5PgXCKDqJT1Uqhm8NyALvg3kSjAK0+tByFTkMhEh101V+f7toETM4RGigBU4BjGvphLg=="
+  "resolved" "https://registry.npmjs.org/css-class-generator/-/css-class-generator-2.0.0.tgz"
+  "version" "2.0.0"
+
 "cssesc@^3.0.0":
   "integrity" "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg=="
   "resolved" "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
@@ -1287,6 +1292,13 @@
   "integrity" "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
+
+"next-optimized-classnames@^1.0.2":
+  "integrity" "sha512-qbO0NBE+LObf0QOSQ524yKrriZEMJcJ+CRXUs/WSR0IuDDufJcXdWEZEPPGPUL0LpRFO9CU/MM3v/3U5a1ukaQ=="
+  "resolved" "https://registry.npmjs.org/next-optimized-classnames/-/next-optimized-classnames-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "css-class-generator" "^2.0.0"
 
 "next@12.3.1":
   "integrity" "sha512-l7bvmSeIwX5lp07WtIiP9u2ytZMv7jIeB8iacR28PuUEFG5j0HGAPnMqyG5kbZNBG2H7tRsrQ4HCjuMOPnANZw=="

@@ -17,7 +17,7 @@ a {
 * {
   box-sizing: border-box;
 }
-.header{@apply bg-primary text-white;}
+.header{@apply bg-primary text-white;transition:.5s all ease; }
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -35,6 +35,16 @@ a {
    rounded-3xl
    px-7 py-[.75rem];
 }
+
+.btn-outline-white{
+  @apply border-white
+    border
+   text-white
+   text-sm
+   rounded-3xl 
+   px-7 py-[.75rem]; 
+}
+
 .btn-outline-primary{
   @apply border-primary
     border
@@ -43,8 +53,15 @@ a {
    rounded-3xl 
    px-7 py-[.75rem]; 
 }
-
-#header.sticky {
-display: none;
-  top: 0;
+.btn-white{
+  @apply bg-white
+  text-primary
+  text-sm
+  rounded-3xl
+  px-7 py-[.75rem];
 }
+
+.header.is-sticky {
+@apply fixed bg-white shadow-md;transition:.5s all ease;
+}
+.header.is-sticky .nav-item a{@apply text-secondary;}
